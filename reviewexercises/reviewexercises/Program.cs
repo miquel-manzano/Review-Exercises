@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine(MyMath.CalculateTipPercentage(UserInteraction.UserIntputInt()));
+        Console.WriteLine(MyMath.CalculateTipPercentage(UserInteraction.UserIntputInt(), UserInteraction.UserIntputInt()));
     }
 }
